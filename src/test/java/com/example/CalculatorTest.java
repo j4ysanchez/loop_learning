@@ -13,7 +13,7 @@ class CalculatorTest {
         assertEquals(5, calculator.add(2, 3));
     }
 
-    @Test
+    @Test 
     void multipliesIntegers() {
         assertEquals(42, calculator.multiply(6, 7));
     }
